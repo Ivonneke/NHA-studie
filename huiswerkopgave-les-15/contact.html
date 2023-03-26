@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Huiswerkopgave les 15</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li id="home-knop"><a href="index.html">Home</a></li>
+        <li id="over-mij-knop"><a href="mijncv.html">Over mij</a></li>
+        <li id="contact-knop"><a href="contact.html">Contact</a></li>
+    </header>
+    <h1>Contact opnemen?</h1>
+    <p>Vul hieronder uw contactgegevens in. </p>
+    
+      <form id="contactform" action="https://formspree.io/f/xpzeddkz" method="post">
+      <input type="text" name="firstname" placeholder="Voornaam">
+      <br>
+      <br>
+      <input type="text" name="lastname" placeholder="Achternaam">
+      <br>
+      <br>
+      <input type="email" name="_replyto" placeholder="Uw email">
+      <br>
+      <br>
+      <input type="hidden" name="_subject" value="Website contact"/>
+      <textarea name="message" placeholder="Uw bericht">
+      </textarea>
+      <br>
+      <br>
+      <input type="text" name="_gotcha" style="display:none"/>
+      <input type="submit" value="Verzend">
+      <br>
+      </form>
+      <footer>
+        <p>Copyright 2023 - Ivon de Groot. Alle rechten voorbehouden.</p>
+      </footer>
+  </body>
+</html>
