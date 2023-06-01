@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Huiswerkopgave les 18</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Puddles&display=swap"
+      rel="stylesheet"
+    />
+    <style type="text/css">
+      [class*="col-"] {
+        width: 100%;
+      }
+      .col-2 {
+        background-color: aquamarine;
+        padding: 2em;
+      }
+
+      @media only screen and (min-width: 768px) {
+        [class*="col-"] {
+          float: left;
+          padding: 15px;
+        }
+        img {
+          float: right;
+        }
+        .col-2 {
+          width: 16.66%;
+          background-color: white;
+        }
+        .col-9 {
+          width: 75%;
+          background-color: #dfdfdf;
+        }
+      }
+      .header {
+        min-height: 15em;
+        background-image: url("images/helmond.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(179, 230, 250);
+        text-align: center;
+        padding: 3em;
+      }
+      h1 {
+        font-family: "Rubik Puddles", cursive;
+        color: rgb(255, 255, 255);
+      }
+
+      .footer {
+        min-height: 80px;
+        background-color: aliceblue;
+        clear: left;
+        text-align: center;
+        padding: 3em;
+      }
+      img {
+        max-width: 300px;
+      }
+      #inhoud1 {
+        display: inline-block;
+      }
+      #inhoud2 {
+        display: inline-block;
+      }
+    </style>
+  </head>
+  <body>
+    <!--header-->
+    <div class="header">
+      <h1>Helmond</h1>
+    </div>
+    <!--centaal gedeelte-->
+    <div class="col-2 list">
+      <h2>Feitjes over Helmond</h2>
+      <ol>
+        <li>Helmond telt 94.967 inwoners</li>
+        <li>Heeft een kerk als theater</li>
+        <li>Heeft de grootste waterburcht van Nederland</li>
+        <li>Heeft 4 treinstations</li>
+        <li>Heeft een grote watertoren</li>
+      </ol>
+    </div>
+    <div class="col-9">
+      <div id="inhoud1">
+        <h3>Kasteel van Helmond</h3>
+        <p>
+          <img src="images/kasteel-helmond.jpg" />
+          Kasteel Helmond staat al bijna 700 jaar in het centrum van Helmond.
+          Dit stadskasteel vertelt zijn eigen, bijzondere verhaal.
+        </p>
+      </div>
+      <div id="inhoud2">
+        <h3>Theater Speelhuis</h3>
+        <p>
+          <img src="images/theater-het-speelhuis.jpg" />
+          Theater van Helmond in een voormalig kerkgebouw met een nieuwe glashal
+          er omheen.
+        </p>
+      </div>
+    </div>
+    <!--footer-->
+    <div class="footer">
+      <h2>Footer</h2>
+    </div>
+  </body>
+</html>
